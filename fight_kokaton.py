@@ -202,7 +202,7 @@ def main():
     bombs = [Bomb() for _ in range(NUM_OF_BOMBS)]
     beam = None
     beams = []  # 1. Beamクラスのインスタンスを複数扱うための空のリストを作る
-    explosions = []
+    explosions = [] # explosionsクラスで複数扱うための空リスト
     score = Score()
 
     clock = pg.time.Clock()
