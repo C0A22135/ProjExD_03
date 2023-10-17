@@ -56,6 +56,8 @@ class Bird:
         self.rct = self.img.get_rect()
         self.rct.center = xy
 
+
+
     def change_img(self, num: int, screen: pg.Surface):
         """
         こうかとん画像を切り替え，画面に転送する
